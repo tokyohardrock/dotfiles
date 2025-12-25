@@ -1,0 +1,18 @@
+{
+  "name": "Ash",
+  "description": "A simple grayscale theme for Tilix",
+  "palette": [
+    "#000000", "#555555", "#AAAAAA", "#FFFFFF",
+    "#777777", "#BBBBBB", "#DDDDDD", "#EEEEEE",
+    "#111111", "#666666", "#BBBBBB", "#FFFFFF",
+    "#888888", "#CCCCCC", "#EEEEEE", "#FFFFFF"
+  ],
+  "background-color": "#1C1C1C",
+  "foreground-color": "#E0E0E0",
+  "cursor-color": "#E0E0E0",
+  "highlight-background-color": "#555555",
+  "highlight-foreground-color": "#FFFFFF",
+  "use-theme-colors": false,
+  "use-theme-background": false
+}
+

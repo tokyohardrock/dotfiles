@@ -1,0 +1,19 @@
+{
+	"font_face": "Monospace",
+	"font_size": 12,
+	"theme": "GitHub Adaptive.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Packages/Ublime Color Schemes/Anatomy of Grey.tmTheme",
+	"index_files": false,
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+	"enable_tab_scrolling": false,
+	"overlay_scroll_bars": "enabled",
+	"caret_style": "blink",
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
+	"draw_white_space": "all",
+}

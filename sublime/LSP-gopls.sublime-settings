@@ -1,0 +1,9 @@
+{
+  "command": ["/home/tokyohardrock/go/bin/gopls"],
+  "settings": {
+  	"manageGoplsBinary": false,
+  },
+  "env": {
+    "PATH": "/usr/local/go/bin:/home/tokyohardrock/go/bin:/usr/bin"
+  }
+}
