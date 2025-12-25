@@ -1,4 +1,4 @@
-# my config files
+# my config
 Here is a short guide on how to achieve this look on the **GNOME** desktop.
 ![](./media-for-readme/desktop.png)
 
