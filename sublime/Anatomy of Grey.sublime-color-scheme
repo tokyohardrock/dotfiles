@@ -5,7 +5,7 @@
 	},
 	"globals":
 	{
-	"background": "#1A1A1A",
+		"background": "#1A1A1A",
     	"foreground": "#E6E6E6",
     	"caret": "#FFFFFF",
     	"selection": "#3A3A3A",
