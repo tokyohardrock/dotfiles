@@ -1,1 +1,112 @@
-format = "$directory$character "
+format = '$all'
+right_format = ''
+continuation_prompt = '[∙]() '
+scan_timeout = 30
+command_timeout = 500
+add_newline = true
+
+[character]
+format = '$symbol '
+success_symbol = '[╰─]()[>](blue)'
+error_symbol = '[╰─]()[×](purple)'
+disabled = false
+
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+fish_style_pwd_dir_length = 0
+use_logical_path = true
+format = '[$path](bold purple)[$read_only]() '
+repo_root_format = '[$before_root_path]($style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) '
+style = 'bold underline'
+disabled = false
+read_only = ' 🔒'
+read_only_style = 'red'
+truncation_symbol = ''
+home_symbol = '~'
+use_os_path_sep = true
+
+[fill]
+style = 'bold black'
+symbol = '.'
+disabled = false
+
+[git_branch]
+format = 'on [$symbol$branch]($style)(:[$remote]($style)) '
+symbol = ' '
+style = 'bold purple'
+truncation_length = 9223372036854775807
+truncation_symbol = '…'
+only_attached = false
+always_show_remote = false
+ignore_branches = []
+disabled = false
+
+[git_commit]
+commit_hash_length = 7
+format = '[\($hash$tag\)]($style) '
+style = 'green bold'
+only_detached = true
+disabled = false
+tag_symbol = ' 🏷  '
+tag_disabled = true
+
+[git_metrics]
+added_style = 'bold green'
+deleted_style = 'bold red'
+only_nonzero_diffs = true
+format = '([+$added]($added_style) )([-$deleted]($deleted_style) )'
+disabled = true
+
+[git_state]
+rebase = 'REBASING'
+merge = 'MERGING'
+revert = 'REVERTING'
+cherry_pick = 'CHERRY-PICKING'
+bisect = 'BISECTING'
+am = 'AM'
+am_or_rebase = 'AM/REBASE'
+style = 'bold yellow'
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+disabled = false
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+style = 'red bold'
+stashed = '\$'
+ahead = '⇡'
+behind = '⇣'
+up_to_date = ''
+diverged = '⇕'
+conflicted = '='
+deleted = '✘'
+renamed = '»'
+modified = '!'
+staged = '+'
+untracked = '?'
+ignore_submodules = false
+disabled = false
+
+[hostname]
+ssh_only = false
+trim_at = '.'
+format = '[$hostname]() in '
+style = 'bold'
+disabled = false
+
+[time]
+format = 'at [$time]($style) '
+style = 'bold yellow'
+use_12hr = false
+disabled = true
+utc_time_offset = 'local'
+time_range = '-'
+
+[username]
+format = '[╭─](blue)[$user](bold blue)[@](bold)'
+style_root = 'bold'
+style_user = 'bold'
+show_always = true
+disabled = false
+
+[custom]

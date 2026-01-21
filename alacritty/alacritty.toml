@@ -1,0 +1,38 @@
+[env]
+TERM = "alacritty"
+
+[font]
+size = 14
+
+[window]
+decorations = "full"
+startup_mode = "Maximized"
+
+[window.padding]
+x = 20
+
+[cursor.style]
+shape = "Underline"
+blinking = "On"
+
+[colors.primary]
+background = "#1C1C1C"
+foreground = "#FFFFFF"
+
+[colors.cursor]
+text = "#1C1C1C"
+cursor = "#5c9eff"
+
+[colors.selection]
+text = "#FFFFFF"
+background = "#5c9eff"
+
+[colors.normal]
+black   = "#000000"
+red     = "#5c9eff"
+green   = "#AAAAAA"
+yellow  = "#EEEEEE"
+blue    = "#5c9eff"
+magenta = "#F92672"
+cyan    = "#DDDDDD"
+white   = "#FFFFFF"

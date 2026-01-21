@@ -1,0 +1,12 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+		"vcsModified": "#5c9eff",
+		"statusBarHoverForeground": "#5c9eff",
+	},
+	"rules":
+	[
+
+	]
+}

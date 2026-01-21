@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"GitHub Theme",
+		"LSP",
+		"LSP-gopls",
+		"LSP-rust-analyzer",
+		"Package Control",
+		"Rust Enhanced",
+		"SublimeLinter",
+		"Ublime Color Schemes",
+		"Zukan Icon Theme",
+	],
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "/home/tokyohardrock/.config/fastfetch/logo.txt",
+    "color": {
+      "1": "blue",
+      "2": "white"
+    },
+  },
+  "display": {
+    "separator": "  ",
+  },
+  "modules": [
+     {
+      "key": "╭───────────╮",
+      "type": "custom"
+    },
+    {
+      "key": "│ {#35}  {#0;37}user   {#keys}│",
+      "type": "title",
+      "format": "{user-name-colored}"
+    },
+    {
+      "key": "├───────────┤",
+      "type": "custom"
+    },
+    {
+      "key": "│ {#31}{icon}  {#0;37}distro {#keys}│",
+      "type": "os"
+    },
+    {
+      "key": "│ {#31}  {#0;37}uptime {#keys}│",
+      "type": "uptime"
+    },
+    {
+      "type": "packages",
+      "key": "│ {#31}  {#0;37}pkgs   {#keys}│"
+    },
+    {
+      "key": "│ {#31}  {#0;37}de     {#keys}│",
+      "type": "de"
+    },
+    {
+      "key": "│ {#31}  {#0;37}wm     {#keys}│",
+      "type": "wm"
+    },
+    {
+      "key": "│ {#31}  {#0;37}term   {#keys}│",
+      "type": "terminal"
+    },
+    {
+      "key": "╰───────────╯",
+      "type": "custom"
+    }
+  ]
+}
