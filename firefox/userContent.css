@@ -2,7 +2,7 @@
                url-prefix("chrome:")
 {
   :root {
-    --uc-my-color: #5c9eff;
+    --uc-my-color: #5294e2;
     --uc-my-color-hover: color-mix(in oklab, var(--uc-my-color) 90%, white);
     --uc-my-color-active: color-mix(in oklab, var(--uc-my-color) 80%, white);
     

@@ -46,8 +46,8 @@
       "type": "wm"
     },
     {
-      "key": "│ {#31}  {#0;37}term   {#keys}│",
-      "type": "terminal"
+      "key": "│ {#31}  {#0;37}shell  {#keys}│",
+      "type": "shell"
     },
     {
       "key": "╰───────────╯",
