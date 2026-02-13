@@ -16,23 +16,27 @@ shape = "Underline"
 blinking = "On"
 
 [colors.primary]
-background = "#1C1C1C"
-foreground = "#FFFFFF"
+background = '#17191d'
+foreground = '#abb2bf'
 
-[colors.cursor]
-text = "#1C1C1C"
-cursor = "#5c9eff"
-
-[colors.selection]
-text = "#FFFFFF"
-background = "#5c9eff"
-
+# Normal colors
 [colors.normal]
-black   = "#000000"
-red     = "#5c9eff"
-green   = "#AAAAAA"
-yellow  = "#EEEEEE"
-blue    = "#5c9eff"
-magenta = "#F92672"
-cyan    = "#DDDDDD"
-white   = "#FFFFFF"
+black   = '#1e2127'
+red     = '#e06c75'
+green   = '#98c379'
+yellow  = '#d19a66'
+blue    = '#61afef'
+magenta = '#c678dd'
+cyan    = '#56b6c2'
+white   = '#abb2bf'
+
+# Bright colors
+[colors.bright]
+black   = '#5c6370'
+red     = '#e06c75'
+green   = '#98c379'
+yellow  = '#d19a66'
+blue    = '#61afef'
+magenta = '#c678dd'
+cyan    = '#56b6c2'
+white   = '#ffffff'

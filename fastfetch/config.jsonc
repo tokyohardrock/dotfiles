@@ -5,53 +5,53 @@
     "source": "/home/tokyohardrock/.config/fastfetch/logo.txt",
     "color": {
       "1": "blue",
-      "2": "white"
+      "2": "white",
     },
   },
   "display": {
     "separator": "  ",
   },
   "modules": [
-     {
-      "key": "╭───────────╮",
-      "type": "custom"
+    {
+      "key": "{#0;34}╭───────────╮",
+      "type": "custom",
     },
     {
-      "key": "│ {#35}  {#0;37}user   {#keys}│",
+      "key": "{#0;34}│ {#0;37}user      {#keys}{#0;34}│",
       "type": "title",
-      "format": "{user-name-colored}"
+      "format": "{#1;34}{user-name}",
     },
     {
-      "key": "├───────────┤",
-      "type": "custom"
+      "key": "{#0;34}├───────────┤",
+      "type": "custom",
     },
     {
-      "key": "│ {#31}{icon}  {#0;37}distro {#keys}│",
-      "type": "os"
+      "key": "{#0;34}│ {icon}  {#0;37}distro {#keys}{#0;34}│",
+      "type": "os",
     },
     {
-      "key": "│ {#31}  {#0;37}uptime {#keys}│",
-      "type": "uptime"
+      "key": "{#0;34}│   {#0;37}de     {#keys}{#0;34}│",
+      "type": "de",
+    },
+    {
+      "key": "{#0;34}│   {#0;37}wm     {#keys}{#0;34}│",
+      "type": "wm",
+    },
+    {
+      "key": "{#0;34}│   {#0;37}shell  {#keys}{#0;34}│",
+      "type": "shell",
     },
     {
       "type": "packages",
-      "key": "│ {#31}  {#0;37}pkgs   {#keys}│"
+      "key": "{#0;34}│   {#0;37}pkgs   {#keys}{#0;34}│",
     },
     {
-      "key": "│ {#31}  {#0;37}de     {#keys}│",
-      "type": "de"
+      "key": "{#0;34}│ ⏲  {#0;37}uptime {#keys}{#0;34}│",
+      "type": "uptime",
     },
     {
-      "key": "│ {#31}  {#0;37}wm     {#keys}│",
-      "type": "wm"
+      "key": "{#0;34}╰───────────╯",
+      "type": "custom",
     },
-    {
-      "key": "│ {#31}  {#0;37}shell  {#keys}│",
-      "type": "shell"
-    },
-    {
-      "key": "╰───────────╯",
-      "type": "custom"
-    }
-  ]
+  ],
 }
