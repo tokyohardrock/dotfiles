@@ -16,27 +16,25 @@ shape = "Underline"
 blinking = "On"
 
 [colors.primary]
-background = '#17191d'
-foreground = '#abb2bf'
+background = "#181818"
+foreground = "#E4E4E4"
 
-# Normal colors
 [colors.normal]
-black   = '#1e2127'
-red     = '#e06c75'
-green   = '#98c379'
-yellow  = '#d19a66'
-blue    = '#61afef'
-magenta = '#c678dd'
-cyan    = '#56b6c2'
-white   = '#abb2bf'
+black   = "#181818"
+red     = "#F43841"
+green   = "#73D936"
+yellow  = "#FFDD33"
+blue    = "#96A6C8"
+magenta = "#9E95C7"
+cyan    = "#95A99F"
+white   = "#E4E4E4"
 
-# Bright colors
 [colors.bright]
-black   = '#5c6370'
-red     = '#e06c75'
-green   = '#98c379'
-yellow  = '#d19a66'
-blue    = '#61afef'
-magenta = '#c678dd'
-cyan    = '#56b6c2'
-white   = '#ffffff'
+black   = "#52494E"
+red     = "#FF4F58"
+green   = "#73D936"
+yellow  = "#FFDD33"
+blue    = "#96A6C8"
+magenta = "#AFAFD7"
+cyan    = "#95A99F"
+white   = "#F5F5F5"
