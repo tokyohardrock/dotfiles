@@ -7,6 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "default_model": {
+      "provider": "openai",
+      "model": "gpt-5.2-codex"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "show_edit_predictions": false,
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "zed"
+  },
   "icon_theme": "Symbols Icon Theme",
   "buffer_font_family": "JetBrains Mono NL",
   "ui_font_size": 16,
@@ -14,12 +27,11 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "One Dark - Darkened",
+    "dark": "zedokai-darkest-machine",
   },
   "title_bar": {
     "show_onboarding_banner": false,
     "show_user_picture": false,
-    "show_sign_in": false,
   },
   "tab_bar": {
     "show_nav_history_buttons": false,
