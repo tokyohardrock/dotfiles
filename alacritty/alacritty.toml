@@ -2,7 +2,10 @@
 TERM = "alacritty"
 
 [font]
-size = 14
+size = 13
+
+[font.normal]
+family = "JetBrains Mono NL"
 
 [window]
 decorations = "full"
@@ -16,7 +19,7 @@ shape = "Underline"
 blinking = "On"
 
 [colors.primary]
-background = "#181818"
+background = "#171b1f"
 foreground = "#E4E4E4"
 
 [colors.normal]
