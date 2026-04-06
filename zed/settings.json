@@ -15,27 +15,73 @@
     "favorite_models": [],
     "model_parameters": [],
   },
+
   "show_edit_predictions": false,
+
   "edit_predictions": {
     "mode": "subtle",
     "provider": "zed",
   },
+
   "icon_theme": "Symbols Icon Theme",
+
   "buffer_font_family": "JetBrains Mono NL",
+
   "ui_font_size": 16,
+
   "buffer_font_size": 15,
+
   "theme": {
     "mode": "dark",
-    "light": "Anthracite Mist",
+    "light": "Gruber Pear Lite 🍐",
     "dark": "Gruber Pear 🍐",
   },
+
+  "experimental.theme_overrides": {
+    "terminal.background": "#181818",
+    "terminal.foreground": "#D3DBD3",
+    "terminal.dim_foreground": "#A7B1A7",
+    "terminal.bright_foreground": "#EEF5EE",
+
+    "terminal.ansi.background": "#181818",
+
+    "terminal.ansi.black": "#171717",
+    "terminal.ansi.red": "#586258",
+    "terminal.ansi.green": "#61ab5a",
+    "terminal.ansi.yellow": "#899684",
+    "terminal.ansi.blue": "#6C826C",
+    "terminal.ansi.magenta": "#778176",
+    "terminal.ansi.cyan": "#8EAA8E",
+    "terminal.ansi.white": "#C8D0C8",
+
+    "terminal.ansi.bright_black": "#313431",
+    "terminal.ansi.bright_red": "#6C786C",
+    "terminal.ansi.bright_green": "#98C78B",
+    "terminal.ansi.bright_yellow": "#9DAA97",
+    "terminal.ansi.bright_blue": "#829882",
+    "terminal.ansi.bright_magenta": "#8B968A",
+    "terminal.ansi.bright_cyan": "#A6C1A6",
+    "terminal.ansi.bright_white": "#F0F5F0",
+
+    "terminal.ansi.dim_black": "#222422",
+    "terminal.ansi.dim_red": "#4F584F",
+    "terminal.ansi.dim_green": "#6C8F63",
+    "terminal.ansi.dim_yellow": "#778274",
+    "terminal.ansi.dim_blue": "#5D705D",
+    "terminal.ansi.dim_magenta": "#666F65",
+    "terminal.ansi.dim_cyan": "#7D947D",
+    "terminal.ansi.dim_white": "#B4BCB4",
+  },
+
   "title_bar": {
     "show_onboarding_banner": false,
     "show_user_picture": false,
   },
+
   "tab_bar": {
     "show_nav_history_buttons": false,
     "show_tab_bar_buttons": false,
   },
+
   "relative_line_numbers": "enabled",
 }
