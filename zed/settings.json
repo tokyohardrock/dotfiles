@@ -10,15 +10,15 @@
   "agent": {
     "default_model": {
       "provider": "openai",
-      "model": "gpt-5.2-codex"
+      "model": "gpt-5.2-codex",
     },
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "show_edit_predictions": false,
   "edit_predictions": {
     "mode": "subtle",
-    "provider": "zed"
+    "provider": "zed",
   },
   "icon_theme": "Symbols Icon Theme",
   "buffer_font_family": "JetBrains Mono NL",
@@ -26,8 +26,8 @@
   "buffer_font_size": 15,
   "theme": {
     "mode": "dark",
-    "light": "One Light",
-    "dark": "zedokai-darkest-machine",
+    "light": "Anthracite Mist",
+    "dark": "Gruber Pear 🍐",
   },
   "title_bar": {
     "show_onboarding_banner": false,

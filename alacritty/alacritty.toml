@@ -2,10 +2,10 @@
 TERM = "alacritty"
 
 [font]
-size = 13
+size=12
 
 [font.normal]
-family = "JetBrains Mono NL"
+family="JetBrains Mono NL"
 
 [window]
 decorations = "full"
@@ -19,25 +19,35 @@ shape = "Underline"
 blinking = "On"
 
 [colors.primary]
-background = "#171b1f"
-foreground = "#E4E4E4"
+background = "#181818"
+foreground = "#D3DBD3"
+dim_foreground = "#A7B1A7"
+bright_foreground = "#EEF5EE"
+
+[colors.cursor]
+text = "#171717"
+cursor = "#C4D0C1"
+
+[colors.selection]
+text = "#D3DBD3"
+background = "#262B26"
 
 [colors.normal]
-black   = "#181818"
-red     = "#F43841"
-green   = "#73D936"
-yellow  = "#FFDD33"
-blue    = "#96A6C8"
-magenta = "#9E95C7"
-cyan    = "#95A99F"
-white   = "#E4E4E4"
+black   = "#171717"
+red     = "#586258"
+green   = "#61ab5a"
+yellow  = "#899684"
+blue    = "#6C826C"
+magenta = "#778176"
+cyan    = "#8EAA8E"
+white   = "#C8D0C8"
 
 [colors.bright]
-black   = "#52494E"
-red     = "#FF4F58"
-green   = "#73D936"
-yellow  = "#FFDD33"
-blue    = "#96A6C8"
-magenta = "#AFAFD7"
-cyan    = "#95A99F"
-white   = "#F5F5F5"
+black   = "#313431"
+red     = "#6C786C"
+green   = "#A1D393"
+yellow  = "#9DAA97"
+blue    = "#829882"
+magenta = "#8B968A"
+cyan    = "#A6C1A6"
+white   = "#F0F5F0"
