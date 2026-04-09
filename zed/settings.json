@@ -33,44 +33,13 @@
 
   "theme": {
     "mode": "dark",
-    "light": "Gruber Pear Lite 🍐",
-    "dark": "Gruber Blueberry 🫐",
+    "light": "One Light",
+    "dark": "zedokai-darkest-machine",
   },
 
   "experimental.theme_overrides": {
-    "terminal.background": "#181818",
-    "terminal.foreground": "#C9D5D4",
-    "terminal.dim_foreground": "#98A4A7",
-    "terminal.bright_foreground": "#EEF3F5",
-
-    "terminal.ansi.background": "#181818",
-
-    "terminal.ansi.black": "#181818",
-    "terminal.ansi.red": "#5D6674",
-    "terminal.ansi.green": "#6877A8",
-    "terminal.ansi.yellow": "#737C91",
-    "terminal.ansi.blue": "#7B8FE2",
-    "terminal.ansi.magenta": "#7F88C8",
-    "terminal.ansi.cyan": "#8EA5D7",
-    "terminal.ansi.white": "#C7D1D6",
-
-    "terminal.ansi.bright_black": "#313338",
-    "terminal.ansi.bright_red": "#70798A",
-    "terminal.ansi.bright_green": "#7D8CC1",
-    "terminal.ansi.bright_yellow": "#878FA5",
-    "terminal.ansi.bright_blue": "#97ABF4",
-    "terminal.ansi.bright_magenta": "#98A3DE",
-    "terminal.ansi.bright_cyan": "#A8BCEC",
-    "terminal.ansi.bright_white": "#F2F6F8",
-
-    "terminal.ansi.dim_black": "#222326",
-    "terminal.ansi.dim_red": "#4C5360",
-    "terminal.ansi.dim_green": "#57658D",
-    "terminal.ansi.dim_yellow": "#5F6678",
-    "terminal.ansi.dim_blue": "#6678BF",
-    "terminal.ansi.dim_magenta": "#666FA7",
-    "terminal.ansi.dim_cyan": "#7489B8",
-    "terminal.ansi.dim_white": "#AEB9BE",
+    "terminal.ansi.blue": "#66b8ff",
+    "terminal.ansi.bright_blue": "#82c8ff",
   },
 
   "title_bar": {
